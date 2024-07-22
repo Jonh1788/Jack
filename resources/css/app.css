@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@font-face {
+    font-family: "Kanit";
+    src: url('/public/fonts/Kanit/Kanit-Black.ttf') format('truetype');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Kanit";
+    src: url("/public/fonts/Kanit/Kanit-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Kanit";
+    src: url("/public/fonts/Kanit/Kanit-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Kanit";
+    src: url("/public/fonts/Kanit/Kanit-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Kanit";
+    src: url("/public/fonts/Kanit/Kanit-Light.ttf") format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Kanit";
+    src: url("/public/fonts/Kanit/Kanit-Medium.ttf") format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Kanit";
+    src: url("/public/fonts/Kanit/Kanit-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Kanit";
+    src: url("/public/fonts/Kanit/Kanit-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Kanit";
+    src: url("/public/fonts/Kanit/Kanit-Thin.ttf") format("truetype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("/public/fonts/Inter/static/Inter-Black.ttf") format("truetype");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("/public/fonts/Inter/static/Inter-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("/public/fonts/Inter/static/Inter-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("/public/fonts/Inter/static/Inter-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("/public/fonts/Inter/static/Inter-Light.ttf") format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("/public/fonts/Inter/static/Inter-Medium.ttf") format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("/public/fonts/Inter/static/Inter-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("/public/fonts/Inter/static/Inter-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("/public/fonts/Inter/static/Inter-Thin.ttf") format("truetype");
+    font-weight: 100;
+}
+
+.scrollbar2::-webkit-scrollbar-thumb{
+   
+    overflow-x: hidden;
+    border-radius: 50px;
+}
+
+/* Adicione isso ao seu arquivo CSS */
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(var(--final-rotation, 360deg));
+    }
+  }
+  
+  .animate-spin-slow {
+    animation: spin 5s ease-out forwards;
+  }
+
+  
